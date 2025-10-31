@@ -193,4 +193,4 @@ const arrowFunction = () => {
 arrowFunction()
 
 // callback function
-
+var teste = null
