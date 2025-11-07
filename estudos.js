@@ -182,9 +182,9 @@ const showMessage = function(){
     return 'funcao anonima'
 }
 
-console.log(showMessage)
+console.log(showMessage) 
 
-// arrow function
+ // arrow function
 
 const arrowFunction = () => {
     console.log('arrow function')
@@ -193,4 +193,19 @@ const arrowFunction = () => {
 arrowFunction()
 
 // callback function
-var teste = null
+
+function execute(taskName , callback){
+ console.log("executando a tarefa:", taskName)
+
+    callback()
+}
+
+function callback(){
+
+    console.log("calbackk execultado")
+}
+
+execute("dowload", callback) 
+ 
+
+
