@@ -60,10 +60,15 @@ console.log(coresremocao)
 let animais = ["cachorro", "gato", "pássaro", "peixe"];
 
 // Busca por valor
-let indice = animais.indexOf("gato"); /* me retorna o indice */
+let indice = animais.indexOf("gato"); /* ja faz a busca e se encontrar retorna o indece e se nao encontrar retorna -1 */
 
 console.log(indice)
 
 let existe = animais.includes("pássaro"); // me retorna true ou false se nao encontrar 
 
 console.log(existe)
+
+
+
+let idade =[25,35,45,80,110]
+console.log(idade[2])
