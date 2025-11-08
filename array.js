@@ -74,3 +74,5 @@ let idade =[25,35,45,80,110]
 console.log(idade[2])
 
 let testenotebook = ['testanto notebook']
+
+let maisumteste = [10,20,30,'notebook']
