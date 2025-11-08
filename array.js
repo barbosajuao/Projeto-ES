@@ -72,3 +72,5 @@ console.log(existe)
 
 let idade =[25,35,45,80,110]
 console.log(idade[2])
+
+let testenotebook = ['testanto notebook']
