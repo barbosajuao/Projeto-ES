@@ -73,3 +73,24 @@ console.log(existe)
 let idade =[25,35,45,80,110]
 console.log(idade[2])
 
+// array de obejetos
+
+// UM array onde cada elemento é um OBJETO com nome e nota
+let alunos = [
+    { nome: "Ana", nota: 8.5 },
+    { nome: "João", nota: 7.0 },
+    { nome: "Maria", nota: 9.0 },
+    { nome: "Pedro", nota: 6.5 }
+];
+alunos.push({nome:`carlos`,nota:3.6})
+/* // Acessando os dados
+console.log(alunos[0].nome + " tem nota " + alunos[0].nota); // Ana tem nota 8.5
+console.log(alunos[1].nome + " tem nota " + alunos[1].nota); // João tem nota 7.0 */
+console.log(alunos)
+
+let casas = [
+    { rua: `centro`, tipo: `casa`, numero: 55},
+    { rua:`lateral`, tipo: `apartamento`, numero:82}
+]
+
+console.log(casas[1].tipo)
