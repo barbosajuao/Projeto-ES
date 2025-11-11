@@ -94,3 +94,5 @@ let casas = [
 ]
 
 console.log(casas[1].tipo)
+
+console.log('maria mora no bairro ' + casas[0].rua +  ' visinha ao apartamento '+ casas[1].numero) // exemplo criado por mim
